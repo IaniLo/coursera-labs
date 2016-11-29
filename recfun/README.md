@@ -6,7 +6,7 @@ In mathematics, Pascal's triangle is a triangular array of the binomial coeffici
 In the Western world, it is named after French mathematician Blaise Pascal
 The following pattern of numbers is called Pascal’s triangle.
 
-<img src="https://raw.github.com/IaniLO/courseraogfun/images/pascals-triangle.gif"/>
+
 <img src="./images/pascals-triangle.gif"/>
 
 
