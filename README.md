@@ -6,10 +6,9 @@ In mathematics, Pascal's triangle is a triangular array of the binomial coeffici
 In the Western world, it is named after French mathematician Blaise Pascal
 The following pattern of numbers is called Pascal’s triangle.
 
-```scala
+
 <img src="/recfun/images/pascals-triangle.gif"/>
 
-```
 
 The numbers at the edge of the triangle are all `1`, and each number inside the triangle is the sum of the two numbers above it.
 Write a function that computes the elements of Pascal’s triangle by means of a recursive process.
