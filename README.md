@@ -7,6 +7,7 @@ In the Western world, it is named after French mathematician Blaise Pascal
 The following pattern of numbers is called Pascal’s triangle.
 
 <img src="https://raw.github.com/IaniLO/scala-labs/progfun/images/pascals-triangle.gif"/>
+<img src="./progfun/images/pascals-triangle.gif"/>
 
 
 The numbers at the edge of the triangle are all `1`, and each number inside the triangle is the sum of the two numbers above it.
@@ -44,6 +45,3 @@ Its signature is as follows:
 def countChange(money: Int, coins: List[Int]): Int
 ```
 
-Once again, you can make use of functions `isEmpty`, `head` and `tail` on the list of integers `coins`.
-
-**Hint:** Think of the degenerate cases. How many ways can you give change for 0 CHF? How many ways can you give change for >0 CHF, if you have no coins?
