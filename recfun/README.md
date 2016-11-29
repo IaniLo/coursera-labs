@@ -45,6 +45,4 @@ Its signature is as follows:
 def countChange(money: Int, coins: List[Int]): Int
 ```
 
-Once again, you can make use of functions `isEmpty`, `head` and `tail` on the list of integers `coins`.
 
-**Hint:** Think of the degenerate cases. How many ways can you give change for 0 CHF? How many ways can you give change for >0 CHF, if you have no coins?
