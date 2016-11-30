@@ -19,7 +19,7 @@ This is an abstract mathematical concept and you should not pay too much attenti
 The goal here is to grasp and practice with higher-order functions.
  
 
-Let’s take an example:
+Let’s take an example:  
 Think about you bought a lottery ticket (here you have the set A) and you want to know if the winner numbers have. When the first number is drown the set A get initialized by the singleton method! And so on until the draw is finished. As a developer you want to create a function to tell you if you numbers are the wining one! That function it’s called the characteristic function of that set of numbers. For the next draw will have another one defined!
 
 Keep in mind that a Characteristic Function is defined for a specific Set A (In our case the specific lottery draw!)
