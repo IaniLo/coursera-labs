@@ -26,7 +26,7 @@ https://www.coursera.org/course/progfun
 
 
 # Week1
-## Getting Started + Functions & Evaluation
+## Getting Started : Functions & Evaluation
 
 Get up and running with **Scala** on your computer. 
 In this section you'll learn the difference between two paradigms _functional programming paradigm_ and _functional imperative programming_. 
