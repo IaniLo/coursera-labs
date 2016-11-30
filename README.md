@@ -9,7 +9,7 @@ title: Learning Resources
 ---
 
 ### Quick References
-(what-is-scala.html)
+{Learn More](what-is-scala.html)
 - [Scala Standard Library API](http://www.scala-lang.org/api/)
 - [Scala School!](http://twitter.github.com/scala_school/): A Scala tutorial by Twitter
 - [A Tour of Scala](http://docs.scala-lang.org/tutorials/tour/tour-of-scala.html): Tutorial indroducing the main concepts of Scala
