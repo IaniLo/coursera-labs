@@ -1,13 +1,14 @@
 [![Build Status](https://travis-ci.org/coursera/courscala.svg)](https://travis-ci.org/coursera/courscala)
 
-Coursera ProgFun: Functional Programming Principles in Scala
-============================================================
-
 ---
 layout: page
 title: Learning Resources
 ---
+Coursera ProgFun: Functional Programming Principles in Scala
+============================================================
 
+
+<img src="./images/pascals-triangle.gif"/>
 ### Quick References
 [Learn More](what-is-scala.html)
 - [Scala Standard Library API](http://www.scala-lang.org/api/)
