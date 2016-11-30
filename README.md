@@ -7,9 +7,10 @@ Functional Programming Principles in Scala
 ### Quick References
 
 
-The indicator function of a subset A of a set X is a function ![](./images/f001.png?raw=true "Optional Title") 
+Definition: Let’s consider A ⊂ E ≠ ∅ (a universal set), then ![](./images/f001.png?raw=true "Optional Title") 
+where the function ![](./images/f002.png?raw=true "Optional Title")  is called the characteristic function of the set
+A .
 
-Definition: Let’s consider A ⊂ E ≠ ∅ (a universal set), then 
 
 is called the characteristic function of the set
 A .
