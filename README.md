@@ -5,17 +5,16 @@ Functional Programming Principles in Scala
 ===========================================
 
 ### Quick References
+#ABOUT THE CHARACTERISTIC FUNCTION OF A SET
 
-
+##**_Abstract:_**
 Definition: Let’s consider A ⊂ E ≠ ∅ (a universal set), then  
 ![](./images/f001.png?raw=true "Optional Title") where the function   
 ![](./images/f002.png?raw=true "Optional Title")  
 is called the characteristic function of the set A .
 
 
-is called the characteristic function of the set
-A .
-Theorem 1:
+
 
 - [Scala Oficial Site](http://www.scala-lang.org/)
 - [Scala Standard Library API](http://www.scala-lang.org/api/)
