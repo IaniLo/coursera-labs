@@ -46,8 +46,7 @@ Finally, we'll learn about methods, classes, and data abstraction through the de
 data structure for rational numbers.
 
 ## Assignment: 
-```scala
-Functional Sets``` 
+```Functional Sets``` 
 
 
 
