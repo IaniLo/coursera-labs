@@ -62,10 +62,10 @@ into packages. Finally, we'll touch upon _the different sorts_ of **polymorphism
 ## Types and Pattern Matching
 
 This session we'll learn about the _relationship between functions and objects_ in Scala; 
-[functions *are* objects!] We'll zoom in on Scala's type system, covering subtyping and generics, 
-and moving on to more advanced aspects of Scala's type system like variance. 
-Finally, we'll cover Scala's most widely used data structure, 
-Lists, and one of Scala's most powerful tools, pattern matching
+Functions *are* objects! We'll go deep into Scala's type system, covering _subtyping and generics_, 
+and moving on to more advanced aspects of Scala's type system like _variance_. 
+Finally, we'll cover Scala's most widely used data structure, **Lists**, and one of Scala's most powerful tools, 
+**pattern matching**.
 
 ## Assignment:  Huffman Coding
 * [Week 4 assignment](./recfun/README.md)
@@ -73,22 +73,18 @@ Lists, and one of Scala's most powerful tools, pattern matching
 # Week5
 ## Lists
 
-This section, we'll learn about functions as **first-class values**, and **higher order functions**. 
-We'll also learn about Scala's syntax and how it's formally defined. 
-Finally, we'll learn about methods, classes, and data abstraction through the design of a 
-data structure for rational numbers.
+This section we'll cover in more details the most commonly-used data structure in Scala - **List**.
 
-## Assignment:  Functional Sets
-* [Week 5 assignment](./recfun/README.md)
+## Assignment:  None
 
 
 # Week6
-## Data and Abstraction
+## Collections
 
-This section, we'll learn about functions as **first-class values**, and **higher order functions**. 
-We'll also learn about Scala's syntax and how it's formally defined. 
-Finally, we'll learn about methods, classes, and data abstraction through the design of a 
-data structure for rational numbers.
+After a deep-dive into Lists, this session we'll explore other data structures; 
+**vectors**, **maps**, **ranges**, **arrays**, and more. 
+We'll dive into Scala's powerful and flexible **for-comprehensions** for querying data. 
+
 
 ## Assignment:  Anagrams
 * [Week 6 assignment](./recfun/README.md)
