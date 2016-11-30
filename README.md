@@ -29,7 +29,7 @@ https://www.coursera.org/course/progfun
 ## Getting Started : Functions & Evaluation
 
 Get up and running with **Scala** on your computer. 
-In this section you'll learn the difference between two paradigms `_functional programming paradigm_` and `_functional imperative programming_`. 
+In this section you'll learn the difference between two paradigms _`functional programming paradigm`_ and _`functional imperative programming`_. 
 We are going to step through the basics of Scala; covering expressions, evaluation, conditionals, 
 functions, and recursion.
 
