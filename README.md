@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/coursera/courscala.svg)](https://travis-ci.org/coursera/courscala
+[![Build Status](https://travis-ci.org/coursera-progfun2.svg?branch=master)](https://travis-ci.org/sczerwinski/coursera-progfun2)
+
+
 Coursera ProgFun: Functional Programming Principles in Scala
 ============================================================
 
