@@ -7,7 +7,7 @@ Functional Programming Principles in Scala
 ### Quick References
 
 
-Definition: Let’s consider A ⊂ E ≠ ∅ (a universal set), then
+Definition: Let’s consider A ⊂ E ≠ ∅ (a universal set), then  
 ![](./images/f001.png?raw=true "Optional Title") where the function 
 ![](./images/f002.png?raw=true "Optional Title")  
 is called the characteristic function of the set A .
