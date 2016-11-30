@@ -1,11 +1,6 @@
 
 [![Build Status](https://travis-ci.org/coursera/courscala.svg)](https://travis-ci.org/coursera/courscala)
 
----
-layout: page
-title: Learning Resources
----
-
 Coursera ProgFun: Functional Programming Principles in Scala
 ============================================================
 <img src="./images/scala.png"/>
