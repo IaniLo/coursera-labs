@@ -26,4 +26,14 @@ https://www.coursera.org/course/progfun
 
 
 # Week1
-##Getting Started + Functions & Evaluation
+## Getting Started + Functions & Evaluation
+
+Get up and running with ##Scala## on your computer. 
+You'll, learn the difference between two paradigms _functional programming paradigm_ and _functional imperative programming_. 
+You are going to step through the basics of Scala; covering expressions, evaluation, conditionals, 
+functions, and recursion.
+
+## Assignment: Recursion 
+* [Week 1 assignment](https://github.com/sczerwinski/coursera-progfun1/wiki/Week-1)
+
+
