@@ -34,6 +34,6 @@ You are going to step through the basics of Scala; covering expressions, evaluat
 functions, and recursion.
 
 ## Assignment: Recursion 
-* [Week 1 assignment](https://github.com/sczerwinski/coursera-progfun1/wiki/Week-1)
+* [Week 1 assignment](https://github.com/ianilo/coursera-lab/recfun/README.md)
 
 
