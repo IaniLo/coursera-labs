@@ -29,12 +29,23 @@ https://www.coursera.org/course/progfun
 ## Getting Started + Functions & Evaluation
 
 Get up and running with **Scala** on your computer. 
-You'll, learn the difference between two paradigms _functional programming paradigm_ and _functional imperative programming_. 
-You are going to step through the basics of Scala; covering expressions, evaluation, conditionals, 
+In this section you'll learn the difference between two paradigms _functional programming paradigm_ and _functional imperative programming_. 
+We are going to step through the basics of Scala; covering expressions, evaluation, conditionals, 
 functions, and recursion.
 
 ## Assignment: Recursion 
 * [Week 1 assignment](./recfun/README.md)
-* [Week 1 assignment](https://github.com/IaniLo/coursera-labs/blob/master/recfun/README.md)
+
+# Week2
+## Higher Order Functions
+
+
+This section, we'll learn about functions as **first-class values**, and **higher order functions**. 
+We'll also learn about Scala's syntax and how it's formally defined. 
+Finally, we'll learn about methods, classes, and data abstraction through the design of a 
+data structure for rational numbers.
+
+## Assignment: ```Functional Sets``` 
+
 
 
