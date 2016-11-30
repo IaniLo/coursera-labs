@@ -7,22 +7,22 @@ Functional Programming Principles in Scala
 ### Quick References
 #ABOUT THE CHARACTERISTIC FUNCTION OF A SET
 
-##**_Abstract:_**
+###**_Abstract:_**
 **Definition**: Let’s consider A ⊂ E ≠ ∅ (a universal set), then  
 ![](./images/f001.png?raw=true "Optional Title") where the function   
 ![](./images/f002.png?raw=true "Optional Title")  
 is called the characteristic function of the set A .
 
 So, in mathematics, we call a function which takes an integer as argument and which returns a boolean indicating 
-whether the given integer belongs to a set, the characteristic function of the set. 
-This is an abstract mathematical concept and you should not pay too much attention to understand it more than it requires...
-The goal here is to grasp and practice with higher-order functions.
+whether the given integer belongs to a set, _the characteristic function of the set_. 
+This is an _abstract mathematical concept_ and you should not pay too much attention to understand it more than it requires...
+The goal here is to grasp and practice with **higher-order functions**.
  
-
+```
 Let’s take an example:  
 Think about you bought a lottery ticket (here you have the set A) and you want to know if the winner numbers have. When the first number is drown the set A get initialized by the singleton method! And so on until the draw is finished. As a developer you want to create a function to tell you if you numbers are the wining one! That function it’s called the characteristic function of that set of numbers. For the next draw will have another one defined!
-
 Keep in mind that a Characteristic Function is defined for a specific Set A (In our case the specific lottery draw!)
+```
 
 In this session you also introduced to the new types like "Set = Int => Boolean" This just say that a function can return a new function with this specific signature.
 
