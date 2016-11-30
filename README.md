@@ -8,12 +8,31 @@ Functional Programming Principles in Scala
 #ABOUT THE CHARACTERISTIC FUNCTION OF A SET
 
 ##**_Abstract:_**
-Definition: Let’s consider A ⊂ E ≠ ∅ (a universal set), then  
+**Definition**: Let’s consider A ⊂ E ≠ ∅ (a universal set), then  
 ![](./images/f001.png?raw=true "Optional Title") where the function   
 ![](./images/f002.png?raw=true "Optional Title")  
 is called the characteristic function of the set A .
 
+So, in mathematically, we call the function which takes an integer as argument and which returns a boolean indicating whether the given integer belongs to a set, the characteristic function of the set. 
+Think about you bought a lotery ticket (here you have the set A) and you want to know if have the winer numbers. 
+When the first numer is drown theset A get initialized by the singleton method! And so on until the draw is finished.
+As a developer you want to create a function to tell you if you numbers are the winings one! 
 
+Keep in mind that a Caracteristic Function is defined for a specific Set A (In our case the specific lotery drow!)
+
+This is a very abstract mathematical concept and you should not pay too much attention to understand the more than it's required...The goal here is to grasp and practice with higher-order functions.
+
+In this sesssion you also introduced to the new tpes like "Set = Int => Boolean" This just say that a function can return a 
+new function with this specific signature.
+
+Note: For avid developers thin about a similar type: 
+ type MultiSet = (Int => Int)
+  For a given argument x:Int the function returns:
+  0 if x not in MultySet   
+  n if x is n times in Multiset [(positive number of times it appears otherwise).
+  
+  f(x) = 0 if x not in MultySet   
+  f(x) = n if n is n times in Multiset [(positive number of times it appears otherwise).
 
 
 - [Scala Oficial Site](http://www.scala-lang.org/)
