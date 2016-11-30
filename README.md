@@ -7,6 +7,7 @@ Coursera ProgFun: Functional Programming Principles in Scala
 ### Quick References
 
 ![Alt text](/images/scala-learn.png?raw=true "Optional Title")
+
 <img src="./recfun/images/pascals-triangle.gif"/>
 
 - [Scala Oficial Site](http://www.scala-lang.org/)
