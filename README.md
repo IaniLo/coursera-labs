@@ -39,12 +39,63 @@ functions, and recursion.
 # Week2
 ## Higher Order Functions
 
+In this section, we'll learn about functions as **first-class values**, and **higher order functions**. 
+We'll also learn about Scala's syntax and how it's formally defined. 
+Finally, we'll learn about methods, classes, and data abstraction through the design of a 
+data structure for rational numbers.
+
+## Assignment:  Functional Sets
+* [Week 1 assignment](./recfun/README.md)
+
+
+# Week3
+## Data and Abstraction
+
+This section, we'll cover **traits**, and we'll learn how to organize classes into hierarchies. 
+We'll cover the hierarchy of standard Scala types, and see how to organize classes and traits 
+into packages. Finally, we'll touch upon _the different sorts_ of **polymorphism** in Scala. 
+
+## Assignment:  Object-Oriented Sets
+* [Week 3 assignment](./recfun/README.md)
+
+# Week4
+## Types and Pattern Matching
+
+This session we'll learn about the _relationship between functions and objects_ in Scala; 
+[functions *are* objects!] We'll zoom in on Scala's type system, covering subtyping and generics, 
+and moving on to more advanced aspects of Scala's type system like variance. 
+Finally, we'll cover Scala's most widely used data structure, 
+Lists, and one of Scala's most powerful tools, pattern matching
+
+## Assignment:  Huffman Coding
+* [Week 4 assignment](./recfun/README.md)
+
+# Week5
+## Lists
+
 This section, we'll learn about functions as **first-class values**, and **higher order functions**. 
 We'll also learn about Scala's syntax and how it's formally defined. 
 Finally, we'll learn about methods, classes, and data abstraction through the design of a 
 data structure for rational numbers.
 
 ## Assignment:  Functional Sets
+* [Week 5 assignment](./recfun/README.md)
+
+
+# Week6
+## Data and Abstraction
+
+This section, we'll learn about functions as **first-class values**, and **higher order functions**. 
+We'll also learn about Scala's syntax and how it's formally defined. 
+Finally, we'll learn about methods, classes, and data abstraction through the design of a 
+data structure for rational numbers.
+
+## Assignment:  Anagrams
+* [Week 6 assignment](./recfun/README.md)
+
+
+
+
 
 
 
