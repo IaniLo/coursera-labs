@@ -16,9 +16,34 @@ project/plugins/project/
 .scala_dependencies
 .worksheet
 
-# IntelliJ IDEA specific
-*.iml
-*.ipr
-*.iws
-.idea
-out
+# Eclipse specific
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# sbteclipse plugin
+.target
+
+# TeXlipse plugin
+.texlipse
