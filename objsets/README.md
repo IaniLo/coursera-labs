@@ -1,3 +1,4 @@
+# Week 3
 
 ## Assignment: Object-Oriented Sets
 
@@ -11,10 +12,14 @@ that connect the nodes. Each node has two branches, `left` and `right`.
 There is an invariant which always holds: for every branch `b`, all elements in the left subtree are smaller than the `value` at `b`, while elements in the right subtree are larger.
 There are many advantages of representing sets as binary search trees one of them is that the elements of the set can be found quickly.
 
+A binary tree can be implemented as a `list of lists` (a list where the values are lists):   
+* the `head` of a list (the value of the first term) is the `left child` (subtree), 
+* while the 'tail' (the list of second and subsequent terms) is the `right child` (subtree).
 
 
 
-And among the task we have to implement 
+
+And among the task we have to implement   
 * _filtering_, 
 * _union_ and 
 * _sorting_ on `Tweet Sets` 
