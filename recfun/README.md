@@ -15,7 +15,10 @@ Write a function that computes the elements of Pascal’s triangle by means of a
 
 
 ```scala
-def pascal(c: Int, r: Int): Int
+def pascal(c: Int, r: Int): Int = {
+  if (c == 0 || c == r) 1
+  else pascal(c - 1, r - 1) + pascal(c, r - 1)
+}
 ```
 
 ## Exercise 2: Parentheses Balancing
@@ -28,6 +31,20 @@ Its signature is as follows:
 
 ```scala
 def balance(chars: List[Char]): Boolean
+```
+#### Solution:
+```scala
+  def balance(chars: List[Char]): Boolean = {
+    def loop(chars: List[Char], done: Int): Boolean =
+      chars match {
+        case Nil      => done == 0
+        case '(' :: t => loop(t, done + 1)
+        case ')' :: t => done > 0 && loop(t, done - 1)
+        case _ :: t   => loop(t, done)
+      }
+    loop(chars, 0)
+  }
+
 ```
 
 
@@ -43,6 +60,19 @@ Its signature is as follows:
 
 ```scala
 def countChange(money: Int, coins: List[Int]): Int
+```
+#### Solution:
+```scala
+  def countChange(money: Int, coins: List[Int]): Int = {
+    def loop(money: Int, coins: List[Int]): Int = {
+      if (coins.isEmpty) 0
+      else if (money - coins.head == 0) 1
+      else if (money - coins.head < 0) 0
+      else
+        loop(money - coins.head, coins) + loop(money, coins.tail)
+    }
+    loop(money, coins.sorted)
+  }
 ```
 
 
