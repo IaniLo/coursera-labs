@@ -43,7 +43,7 @@ Finally, we'll learn about methods, classes, and data abstraction through the de
 data structure for rational numbers.
 
 ## Assignment:  Functional Sets
-* [Week 1 assignment](./funset/README.md)
+* [Week 2 assignment](./funset/README.md)
 
 
 # Week3
