@@ -1,7 +1,7 @@
 
 ## Assignment: Object-Oriented Sets
 
-In this assignment you will work with an object-oriented representations based on binary trees.
+In this assignment we will work with an object-oriented representations based on binary trees.
 And among the task we have to implement 
 * _filtering_, 
 * _union_ and 
@@ -22,7 +22,7 @@ object GoogleVsApple
 ```
 
 
-### Solution
+### :point_right: Solution
 ```scala
 class Tweet(val user: String, val text: String, val retweets: Int) {
   override def toString: String =
@@ -205,3 +205,4 @@ class Cons(val head: Tweet, val tail: TweetList) extends TweetList {
   def isEmpty = false
 }
 ```
+
