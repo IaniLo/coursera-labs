@@ -1,12 +1,5 @@
 
-
-
-Functional Programming Principles in Scala
-===========================================
-
-
-
-#ABOUT THE CHARACTERISTIC FUNCTION OF A SET
+# About the characteristic function of a set
 
 ###**_Abstract:_**
 **Definition**: Let’s consider A ⊂ E ≠ ∅ (a universal set), then  
