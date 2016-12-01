@@ -8,7 +8,6 @@ It's based on the idea that frequently-appearing letters should have shorter bit
 
 ### Implementation
 
-Again, we are going to work with binary trees.
 Huffman tree can be represemis in Scala as follows:
 
 ```scala
@@ -17,7 +16,7 @@ abstract class CodeTree
   case class Leaf(char: Char, weight: Int) extends CodeTree
   ```
 So we are going to represent Huffman code as a binary tree whose leaves represent the
-characters that should be encoded. The code tree below can represent the characters A to H.
+characters that should be encoded. 
   
 ### :point_right: Solution
 
