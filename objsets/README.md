@@ -22,14 +22,21 @@ And among the task we have to implement
 
 ```scala
 class Tweet(val user: String, val text: String, val retweets: Int)
+
 abstract class TweetSet 
   -- This represents a set of objects of type `Tweet` in the form of a binary search tree.
   -- Every branch in the tree has two children (two `TweetSet`s)
+
 class Empty extends TweetSet
+
 class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet
+
 trait TweetList
+
 object Nil extends TweetList 
+
 class Cons(val head: Tweet, val tail: TweetList) extends TweetList
+
 object GoogleVsApple
 ```
 
