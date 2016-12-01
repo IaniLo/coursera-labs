@@ -9,7 +9,7 @@ The class `TweetSet` represents a set of objects of type `Tweet` in the form of 
 
 
 ![Alt text](./images/binary-tree.png?raw=true "Optional Title")
-![Alt text](./images/non-binary-tree.png?raw=true "Optional Title")
+![Alt text](./images/not-binary-tree.png?raw=true "Optional Title")
 
 
 A `tree` consists of finite set of elements, called `nodes`, and a finite set of directed lines called `branches`, 
