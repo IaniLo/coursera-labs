@@ -2,11 +2,23 @@
 ## Assignment: Object-Oriented Sets
 
 In this assignment we will work with an object-oriented representations based on binary trees.
+In this assignment we are going to work again with the notion of Set, a very important concept in Scala. 
+
+The class `TweetSet` represents a set of objects of type `Tweet` in the form of a binary search tree. 
+
+A tree consists of finite set of elements, called `nodes`, and a finite set of directed lines called `branches`, 
+that connect the nodes. Each node has two branches, `left` and `right`.
+There is an invariant which always holds: for every branch `b`, all elements in the left subtree are smaller than the `value` at `b`, while elements in the right subtree are larger.
+There are many advantages of representing sets as binary search trees one of them is that the elements of the set can be found quickly.
+
+
+
+
 And among the task we have to implement 
 * _filtering_, 
 * _union_ and 
 * _sorting_ on `Tweet Sets` 
-
+* an _object-oriented_ representations based on `binary trees`
 
 ```scala
 class Tweet(val user: String, val text: String, val retweets: Int)
