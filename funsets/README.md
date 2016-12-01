@@ -1,97 +1,37 @@
 
-[![Build Status](https://travis-ci.org/coursera/courscala.svg)](https://travis-ci.org/coursera/courscala)
+
 
 Functional Programming Principles in Scala
 ===========================================
 
-### Quick References
 
 
+#ABOUT THE CHARACTERISTIC FUNCTION OF A SET
 
-- [Scala Oficial Site](http://www.scala-lang.org/)
-- [Scala Standard Library API](http://www.scala-lang.org/api/)
-- [SCALA API DOCS](http://docs.scala-lang.org/index.html)
-- [Scala School!](http://twitter.github.com/scala_school/): A Scala tutorial by Twitter
+###**_Abstract:_**
+**Definition**: Let’s consider A ⊂ E ≠ ∅ (a universal set), then  
+![](./images/f001.png?raw=true "Optional Title") where the function   
+![](./images/f002.png?raw=true "Optional Title")  
+is called the characteristic function of the set A .
 
+So, in mathematics, we call a function which takes an integer as argument and which returns a boolean indicating 
+whether the given integer belongs to a set, _the characteristic function of the set_. 
+This is an _abstract mathematical concept_ and you should not pay too much attention to understand it more than it requires...
+The goal here is to grasp and practice with **higher-order functions**.
+ 
+ 
+```
+Let’s take an example to kind of motivate our representation:  
+Think that you bought a lottery ticket. After the lottery draw is done a set A of winning number is established. 
+This set comes attached with a function “f” called characteristic function which will enable you to pass, as an argument, one by one, each of you ticket numbers and get back 1 if the number is a winner, 0 otherwise. 
+```
 
-The original assignments from the Scala course on Coursera.
-Inside some folders you'll find some more explanation about that specific assignment.
-I also provided a cheatsheet for most important aspects of the course.
+In this session you also introduced to the new types like "Set = Int => Boolean" This just say that a function can return a new function with this specific signature.
 
-> This Specialization provides a hands-on introduction to functional programming using the widespread programming language, Scala. It begins from the basic building blocks of the functional paradigm, first showing how to use these blocks to solve small problems, before building up to combining these concepts to architect larger functional programs. You'll see how the functional paradigm facilitates parallel and distributed programming, and through a series of hands on examples and programming assignments, you'll learn how to analyze data sets small to large; from parallel programming on multicore architectures, to distributed programming on a cluster using Apache Spark. A final capstone project will allow you to apply the skills you learned by building a large data-intensive application using real-world data.
+Note: For avid developers thin about a similar type: type Multiset = (Int => Int) For a given argument x: Int the function returns: 0 if x not in Multiset
+n if x is n times in Multiset [(positive number of times it appears otherwise).
 
->The goal of this assignment is to familiarize yourself with the infrastructure and the tools required during this class. Even though the grade in this assignment will be excluded from your final grade for the course, it is important that you work through this assignment carefully.
-
-https://www.coursera.org/course/progfun
-
-
-# Week1
-## Getting Started : Functions & Evaluation
-
-Get up and running with **Scala** on your computer. 
-In this section you'll learn the difference between two paradigms _`functional programming paradigm`_ and _`functional imperative programming`_. 
-We are going to step through the basics of Scala; covering expressions, evaluation, conditionals, 
-functions, and recursion.
-
-## Assignment: Recursion 
-* [Week 1 assignment](./recfun/README.md)
-
-# Week2
-## Higher Order Functions
-
-In this section, we'll learn about functions as **first-class values**, and **higher order functions**. 
-We'll also learn about Scala's syntax and how it's formally defined. 
-Finally, we'll learn about methods, classes, and data abstraction through the design of a 
-data structure for rational numbers.
-
-## Assignment:  Functional Sets
-* [Week 1 assignment](./recfun/README.md)
-
-
-# Week3
-## Data and Abstraction
-
-This section, we'll cover **traits**, and we'll learn how to organize classes into hierarchies. 
-We'll cover the hierarchy of standard Scala types, and see how to organize classes and traits 
-into packages. Finally, we'll touch upon _the different sorts_ of **polymorphism** in Scala. 
-
-## Assignment:  Object-Oriented Sets
-* [Week 3 assignment](./recfun/README.md)
-
-# Week4
-## Types and Pattern Matching
-
-This session we'll learn about the _relationship between functions and objects_ in Scala; 
-Functions *are* objects! We'll go deep into Scala's type system, covering _subtyping and generics_, 
-and moving on to more advanced aspects of Scala's type system like _variance_. 
-Finally, we'll cover Scala's most widely used data structure, **Lists**, and one of Scala's most powerful tools, 
-**pattern matching**.
-
-## Assignment:  Huffman Coding
-* [Week 4 assignment](./recfun/README.md)
-
-# Week5
-## Lists
-
-This section we'll cover in more details the most commonly-used data structure in Scala - **List**.
-
-## Assignment:  None
-
-
-# Week6
-## Collections
-
-After a deep-dive into Lists, this session we'll explore other data structures; 
-**vectors**, **maps**, **ranges**, **arrays**, and more. 
-We'll dive into Scala's powerful and flexible **for-comprehensions** for querying data. 
-
-
-## Assignment:  Anagrams
-* [Week 6 assignment](./recfun/README.md)
-
-
-
-
-
+f(x) = 0 if x not in Multiset
+f(x) = n if n is n times in Multiset [(positive number of times it appears otherwise).
 
 
