@@ -45,7 +45,8 @@ object GoogleVsApple
 ```
 
 
-### :point_right: Solution
+### :point_right: Solution:
+
 ```scala
 class Tweet(val user: String, val text: String, val retweets: Int) {
   override def toString: String =
