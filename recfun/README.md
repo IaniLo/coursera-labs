@@ -13,6 +13,7 @@ The following pattern of numbers is called Pascal’s triangle.
 The numbers at the edge of the triangle are all `1`, and each number inside the triangle is the sum of the two numbers above it.
 Write a function that computes the elements of Pascal’s triangle by means of a recursive process.
 
+### :point_right: Solution:
 
 ```scala
 def pascal(c: Int, r: Int): Int = {
@@ -32,7 +33,7 @@ Its signature is as follows:
 ```scala
 def balance(chars: List[Char]): Boolean
 ```
-#### Solution:
+### :point_right: Solution:
 ```scala
   def balance(chars: List[Char]): Boolean = {
     def loop(chars: List[Char], done: Int): Boolean =
@@ -61,7 +62,8 @@ Its signature is as follows:
 ```scala
 def countChange(money: Int, coins: List[Int]): Int
 ```
-#### Solution:
+### :point_right: Solution:
+
 ```scala
   def countChange(money: Int, coins: List[Int]): Int = {
     def loop(money: Int, coins: List[Int]): Int = {
