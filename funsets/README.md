@@ -29,7 +29,7 @@ type Set = Int => Boolean
 
 In this session you also introduced to the new types like "Set = Int => Boolean" This just say that a function can return a new function with this specific signature.
 
-### Solution:
+### :point_right: Solution:
 
 ```scala
   /**
