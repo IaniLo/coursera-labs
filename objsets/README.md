@@ -7,7 +7,6 @@ In this assignment we are going to work again with the notion of Set, a very imp
 The class `TweetSet` represents a set of objects of type `Tweet` in the form of a _binary search tree_.
 * A binary search tree is a a binary tree where each node stores a `key` and the `value` that belongs to this key.
 
-
 ![Alt text](./images/binary-tree.png?raw=true "Optional Title")
 ![Alt text](./images/not-binary-tree.png?raw=true "Optional Title")
 
