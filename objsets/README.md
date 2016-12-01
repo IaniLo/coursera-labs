@@ -1,6 +1,6 @@
 # Week 3
 
-## Assignment: Object-Oriented Sets
+## Assignment: Data and Abstraction
 
 In this assignment we are going to work again with the notion of Set, a very important concept in Scala. 
 
