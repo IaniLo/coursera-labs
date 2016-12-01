@@ -18,13 +18,11 @@ whether the given integer belongs to a set, _the characteristic function of the 
 This is an _abstract mathematical concept_ and you should not pay too much attention to understand it more than it requires...
 The goal here is to grasp and practice with **higher-order functions**.
  
+ 
 ```
-Let’s take an example:  
-Think about you bought a lottery ticket (here you have the set A) and you want to know if the winner numbers have. 
-When the first number is drown the set A get initialized by the singleton method! And so on until the draw is finished. 
-As a developer you want to create a function to tell you if you numbers are the wining one! 
-That function it’s called the characteristic function of that set of numbers. For the next draw will have another one defined!
-Keep in mind that a Characteristic Function is defined for a specific Set A (In our case the specific lottery draw!)
+Let’s take an example to kind of motivate our representation:  
+Think that you bought a lottery ticket. After the lottery draw is done a set A of winning number is established. 
+This set comes attached with a function “f” called characteristic function which will enable you to pass, as an argument, one by one, each of you ticket numbers and get back 1 if the number is a winner, 0 otherwise. 
 ```
 
 In this session you also introduced to the new types like "Set = Int => Boolean" This just say that a function can return a new function with this specific signature.
