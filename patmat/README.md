@@ -18,7 +18,7 @@ abstract class CodeTree
 So we are going to represent Huffman code as a binary tree whose leaves represent the
 characters that should be encoded. 
   
-### :point_right: Solution
+### :point_right: Solution:
 
 ```scala
   // Part 1: Basics
